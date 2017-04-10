@@ -15,6 +15,8 @@
 		18F5981E1E9AC46F006F8048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F5981C1E9AC46F006F8048 /* LaunchScreen.storyboard */; };
 		18F598291E9AC46F006F8048 /* PuStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F598281E9AC46F006F8048 /* PuStackTests.swift */; };
 		18F598341E9AC46F006F8048 /* PuStackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F598331E9AC46F006F8048 /* PuStackUITests.swift */; };
+		18F598461E9C1091006F8048 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F598451E9C1091006F8048 /* models.swift */; };
+		18F598481E9C10C6006F8048 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F598471E9C10C6006F8048 /* UserInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		18F5982F1E9AC46F006F8048 /* PuStackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuStackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F598331E9AC46F006F8048 /* PuStackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuStackUITests.swift; sourceTree = "<group>"; };
 		18F598351E9AC46F006F8048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F598451E9C1091006F8048 /* models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		18F598471E9C10C6006F8048 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				18F5981C1E9AC46F006F8048 /* LaunchScreen.storyboard */,
 				18F5981F1E9AC46F006F8048 /* Info.plist */,
 				18F598171E9AC46F006F8048 /* PuStack.xcdatamodeld */,
+				18F598451E9C1091006F8048 /* models.swift */,
+				18F598471E9C10C6006F8048 /* UserInfo.swift */,
 			);
 			path = PuStack;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 				18F598131E9AC46F006F8048 /* ViewController.swift in Sources */,
 				18F598191E9AC46F006F8048 /* PuStack.xcdatamodeld in Sources */,
 				18F598111E9AC46F006F8048 /* AppDelegate.swift in Sources */,
+				18F598481E9C10C6006F8048 /* UserInfo.swift in Sources */,
+				18F598461E9C1091006F8048 /* models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +515,7 @@
 				18F5983A1E9AC46F006F8048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F5983B1E9AC46F006F8048 /* Build configuration list for PBXNativeTarget "PuStackTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				18F5983D1E9AC46F006F8048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F5983E1E9AC46F006F8048 /* Build configuration list for PBXNativeTarget "PuStackUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				18F598401E9AC46F006F8048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
