@@ -17,6 +17,9 @@
 		18F598341E9AC46F006F8048 /* PuStackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F598331E9AC46F006F8048 /* PuStackUITests.swift */; };
 		18F598461E9C1091006F8048 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F598451E9C1091006F8048 /* models.swift */; };
 		18F598481E9C10C6006F8048 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F598471E9C10C6006F8048 /* UserInfo.swift */; };
+		BA3FAC881E9C19B00014A2AB /* randomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FAC871E9C19B00014A2AB /* randomFunctions.swift */; };
+		BA3FAC8A1E9C1AD40014A2AB /* database_details.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FAC891E9C1AD40014A2AB /* database_details.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		18F598351E9AC46F006F8048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F598451E9C1091006F8048 /* models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
 		18F598471E9C10C6006F8048 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		BA3FAC871E9C19B00014A2AB /* randomFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = randomFunctions.swift; sourceTree = "<group>"; };
+		BA3FAC891E9C1AD40014A2AB /* database_details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = database_details.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,8 @@
 				18F598171E9AC46F006F8048 /* PuStack.xcdatamodeld */,
 				18F598451E9C1091006F8048 /* models.swift */,
 				18F598471E9C10C6006F8048 /* UserInfo.swift */,
+				BA3FAC871E9C19B00014A2AB /* randomFunctions.swift */,
+				BA3FAC891E9C1AD40014A2AB /* database_details.swift */,
 			);
 			path = PuStack;
 			sourceTree = "<group>";
@@ -270,7 +278,9 @@
 			files = (
 				18F598131E9AC46F006F8048 /* ViewController.swift in Sources */,
 				18F598191E9AC46F006F8048 /* PuStack.xcdatamodeld in Sources */,
+				BA3FAC881E9C19B00014A2AB /* randomFunctions.swift in Sources */,
 				18F598111E9AC46F006F8048 /* AppDelegate.swift in Sources */,
+				BA3FAC8A1E9C1AD40014A2AB /* database_details.swift in Sources */,
 				18F598481E9C10C6006F8048 /* UserInfo.swift in Sources */,
 				18F598461E9C1091006F8048 /* models.swift in Sources */,
 			);
