@@ -19,6 +19,7 @@
 		18F598481E9C10C6006F8048 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F598471E9C10C6006F8048 /* UserInfo.swift */; };
 		BA3FAC881E9C19B00014A2AB /* randomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FAC871E9C19B00014A2AB /* randomFunctions.swift */; };
 		BA3FAC8A1E9C1AD40014A2AB /* database_details.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3FAC891E9C1AD40014A2AB /* database_details.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		18F598471E9C10C6006F8048 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		BA3FAC871E9C19B00014A2AB /* randomFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = randomFunctions.swift; sourceTree = "<group>"; };
 		BA3FAC891E9C1AD40014A2AB /* database_details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = database_details.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
