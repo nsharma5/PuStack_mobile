@@ -21,25 +21,75 @@ do {
     print("Unable to connect to MySQL:  \(error)")
     exit(-1)
 }
-do {
-    try mysql.execute("DROP TABLE IF EXISTS test")
-    try mysql.execute("CREATE TABLE test (test1 INT(4), test2 VARCHAR(16))")
-    
-    for i in 1...10 {
-        let int    = randomInt()
-        let string = randomString(ofLength:16)
-        try mysql.execute("INSERT INTO test VALUES (\(int), '\(string)')")
+
+// create a table for our tests
+try con.exec("CREATE TABLE test (id STRING NOT NULL AUTO_INCREMENT, PRIMARY KEY (id))")
+
+// prepare a new statement for insert
+let ins_stmt = try con.prepare("INSERT INTO test, VALUES(?,?,?)")
+
+// prepare a new statement for select
+let select_stmt = try con.prepare("SELECT * FROM test WHERE Id=?")
+
+// insert 50 rows
+for i in 1...50 {
+    // use a int, float and a string
+    try ins_stmt.exec([10+i, Float(i)/5.0, "name for \(i)"])
+}
+
+// read rows 10 to 30
+for i in 10...30 {
+    do {
+        // send query
+        let res = try select_stmt.query([i])
+        
+        //read all rows from the resultset
+        let rows = try res.readAllRows()
+        
+        // print the rows
+        print(rows)
     }
-    
-    // Query
-    let results = try mysql.execute("SELECT * FROM test")
-    for result in results {
-        if let test1 = result["test1"]?.int,
-            let test2 = result["test2"]?.string {
-            print("\(test1)\t\(test2)")
-        }
+    catch (let err) {
+        // if we get a error print it out
+        print(err)
     }
-} catch {
-    print("Error:  \(error)")
-    exit(-1)
+}
+try con.close()
+};
+catch (let e) {
+    print(e)
+};
+
+
+// create a new Table object with name on a connection
+let table = MySQL.Table(tableName: "createtable_obj", connection: con)
+// drop the table if it exists
+try table.drop()
+
+// create a new object
+let object = obj()
+
+// create the MySQL Table based on the Swift object
+try table.create(object)
+
+// create a table with given primaryKey and auto_increment set to true
+try table.create(object, primaryKey: "id", autoInc: true)
+
+//inserting Swift object using MySQL row
+try table.insert(object)
+
+//updating Object using MySQL row
+obj["iint32"] = 4000
+obj["iint16"] = Int16(-100)
+
+try table.update(obj, key: "id")
+
+// select all rows from the table given a condition
+if let rows = try table.select(Where: ["id=",90, "or id=",91, "or id>",95]) {
+    print(rows)
+}
+
+// select rows specifying the columns we want and a select condition
+if let rows = try table.select(["str", "uint8_array"], Where: ["id=",90, "or id=",91, "or id>",95]) {
+    print(rows)
 }
