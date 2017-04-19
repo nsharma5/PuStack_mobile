@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189C4B9A1EA3E8C200A8F473 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C4B991EA3E8C200A8F473 /* AppDelegate.swift */; };
+		189C4B9C1EA3E8C200A8F473 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C4B9B1EA3E8C200A8F473 /* ViewController.swift */; };
+		189C4B9F1EA3E8C200A8F473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189C4B9D1EA3E8C200A8F473 /* Main.storyboard */; };
+		189C4BA21EA3E8C200A8F473 /* PuStack_UI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 189C4BA01EA3E8C200A8F473 /* PuStack_UI.xcdatamodeld */; };
+		189C4BA41EA3E8C200A8F473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189C4BA31EA3E8C200A8F473 /* Assets.xcassets */; };
+		189C4BA71EA3E8C200A8F473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189C4BA51EA3E8C200A8F473 /* LaunchScreen.storyboard */; };
+		189C4BB21EA3E8C200A8F473 /* PuStack_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C4BB11EA3E8C200A8F473 /* PuStack_UITests.swift */; };
+		189C4BBD1EA3E8C200A8F473 /* PuStack_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C4BBC1EA3E8C200A8F473 /* PuStack_UIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189C4BAE1EA3E8C200A8F473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189C4B8E1EA3E8C200A8F473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189C4B951EA3E8C200A8F473;
+			remoteInfo = PuStack_UI;
+		};
+		189C4BB91EA3E8C200A8F473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189C4B8E1EA3E8C200A8F473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189C4B951EA3E8C200A8F473;
+			remoteInfo = PuStack_UI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189C4B961EA3E8C200A8F473 /* PuStack_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuStack_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189C4B991EA3E8C200A8F473 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189C4B9B1EA3E8C200A8F473 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		189C4B9E1EA3E8C200A8F473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189C4BA11EA3E8C200A8F473 /* PuStack_UI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PuStack_UI.xcdatamodel; sourceTree = "<group>"; };
+		189C4BA31EA3E8C200A8F473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189C4BA61EA3E8C200A8F473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189C4BA81EA3E8C200A8F473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189C4BAD1EA3E8C200A8F473 /* PuStack_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuStack_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189C4BB11EA3E8C200A8F473 /* PuStack_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuStack_UITests.swift; sourceTree = "<group>"; };
+		189C4BB31EA3E8C200A8F473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189C4BB81EA3E8C200A8F473 /* PuStack_UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuStack_UIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189C4BBC1EA3E8C200A8F473 /* PuStack_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuStack_UIUITests.swift; sourceTree = "<group>"; };
+		189C4BBE1EA3E8C200A8F473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189C4B931EA3E8C200A8F473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C4BAA1EA3E8C200A8F473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C4BB51EA3E8C200A8F473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189C4B8D1EA3E8C200A8F473 = {
+			isa = PBXGroup;
+			children = (
+				189C4B981EA3E8C200A8F473 /* PuStack_UI */,
+				189C4BB01EA3E8C200A8F473 /* PuStack_UITests */,
+				189C4BBB1EA3E8C200A8F473 /* PuStack_UIUITests */,
+				189C4B971EA3E8C200A8F473 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189C4B971EA3E8C200A8F473 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189C4B961EA3E8C200A8F473 /* PuStack_UI.app */,
+				189C4BAD1EA3E8C200A8F473 /* PuStack_UITests.xctest */,
+				189C4BB81EA3E8C200A8F473 /* PuStack_UIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189C4B981EA3E8C200A8F473 /* PuStack_UI */ = {
+			isa = PBXGroup;
+			children = (
+				189C4B991EA3E8C200A8F473 /* AppDelegate.swift */,
+				189C4B9B1EA3E8C200A8F473 /* ViewController.swift */,
+				189C4B9D1EA3E8C200A8F473 /* Main.storyboard */,
+				189C4BA31EA3E8C200A8F473 /* Assets.xcassets */,
+				189C4BA51EA3E8C200A8F473 /* LaunchScreen.storyboard */,
+				189C4BA81EA3E8C200A8F473 /* Info.plist */,
+				189C4BA01EA3E8C200A8F473 /* PuStack_UI.xcdatamodeld */,
+			);
+			path = PuStack_UI;
+			sourceTree = "<group>";
+		};
+		189C4BB01EA3E8C200A8F473 /* PuStack_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				189C4BB11EA3E8C200A8F473 /* PuStack_UITests.swift */,
+				189C4BB31EA3E8C200A8F473 /* Info.plist */,
+			);
+			path = PuStack_UITests;
+			sourceTree = "<group>";
+		};
+		189C4BBB1EA3E8C200A8F473 /* PuStack_UIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				189C4BBC1EA3E8C200A8F473 /* PuStack_UIUITests.swift */,
+				189C4BBE1EA3E8C200A8F473 /* Info.plist */,
+			);
+			path = PuStack_UIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189C4B951EA3E8C200A8F473 /* PuStack_UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189C4BC11EA3E8C200A8F473 /* Build configuration list for PBXNativeTarget "PuStack_UI" */;
+			buildPhases = (
+				189C4B921EA3E8C200A8F473 /* Sources */,
+				189C4B931EA3E8C200A8F473 /* Frameworks */,
+				189C4B941EA3E8C200A8F473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuStack_UI;
+			productName = PuStack_UI;
+			productReference = 189C4B961EA3E8C200A8F473 /* PuStack_UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189C4BAC1EA3E8C200A8F473 /* PuStack_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189C4BC41EA3E8C200A8F473 /* Build configuration list for PBXNativeTarget "PuStack_UITests" */;
+			buildPhases = (
+				189C4BA91EA3E8C200A8F473 /* Sources */,
+				189C4BAA1EA3E8C200A8F473 /* Frameworks */,
+				189C4BAB1EA3E8C200A8F473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189C4BAF1EA3E8C200A8F473 /* PBXTargetDependency */,
+			);
+			name = PuStack_UITests;
+			productName = PuStack_UITests;
+			productReference = 189C4BAD1EA3E8C200A8F473 /* PuStack_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		189C4BB71EA3E8C200A8F473 /* PuStack_UIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189C4BC71EA3E8C200A8F473 /* Build configuration list for PBXNativeTarget "PuStack_UIUITests" */;
+			buildPhases = (
+				189C4BB41EA3E8C200A8F473 /* Sources */,
+				189C4BB51EA3E8C200A8F473 /* Frameworks */,
+				189C4BB61EA3E8C200A8F473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189C4BBA1EA3E8C200A8F473 /* PBXTargetDependency */,
+			);
+			name = PuStack_UIUITests;
+			productName = PuStack_UIUITests;
+			productReference = 189C4BB81EA3E8C200A8F473 /* PuStack_UIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189C4B8E1EA3E8C200A8F473 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Aakanksha ";
+				TargetAttributes = {
+					189C4B951EA3E8C200A8F473 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					189C4BAC1EA3E8C200A8F473 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 189C4B951EA3E8C200A8F473;
+					};
+					189C4BB71EA3E8C200A8F473 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 189C4B951EA3E8C200A8F473;
+					};
+				};
+			};
+			buildConfigurationList = 189C4B911EA3E8C200A8F473 /* Build configuration list for PBXProject "PuStack_UI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189C4B8D1EA3E8C200A8F473;
+			productRefGroup = 189C4B971EA3E8C200A8F473 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189C4B951EA3E8C200A8F473 /* PuStack_UI */,
+				189C4BAC1EA3E8C200A8F473 /* PuStack_UITests */,
+				189C4BB71EA3E8C200A8F473 /* PuStack_UIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189C4B941EA3E8C200A8F473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189C4BA71EA3E8C200A8F473 /* LaunchScreen.storyboard in Resources */,
+				189C4BA41EA3E8C200A8F473 /* Assets.xcassets in Resources */,
+				189C4B9F1EA3E8C200A8F473 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C4BAB1EA3E8C200A8F473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C4BB61EA3E8C200A8F473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189C4B921EA3E8C200A8F473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189C4BA21EA3E8C200A8F473 /* PuStack_UI.xcdatamodeld in Sources */,
+				189C4B9C1EA3E8C200A8F473 /* ViewController.swift in Sources */,
+				189C4B9A1EA3E8C200A8F473 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C4BA91EA3E8C200A8F473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189C4BB21EA3E8C200A8F473 /* PuStack_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C4BB41EA3E8C200A8F473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189C4BBD1EA3E8C200A8F473 /* PuStack_UIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189C4BAF1EA3E8C200A8F473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189C4B951EA3E8C200A8F473 /* PuStack_UI */;
+			targetProxy = 189C4BAE1EA3E8C200A8F473 /* PBXContainerItemProxy */;
+		};
+		189C4BBA1EA3E8C200A8F473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189C4B951EA3E8C200A8F473 /* PuStack_UI */;
+			targetProxy = 189C4BB91EA3E8C200A8F473 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		189C4B9D1EA3E8C200A8F473 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189C4B9E1EA3E8C200A8F473 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189C4BA51EA3E8C200A8F473 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189C4BA61EA3E8C200A8F473 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189C4BBF1EA3E8C200A8F473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		189C4BC01EA3E8C200A8F473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189C4BC21EA3E8C200A8F473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PuStack_UI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PuStack.PuStack-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		189C4BC31EA3E8C200A8F473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PuStack_UI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PuStack.PuStack-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		189C4BC51EA3E8C200A8F473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PuStack_UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PuStack.PuStack-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuStack_UI.app/PuStack_UI";
+			};
+			name = Debug;
+		};
+		189C4BC61EA3E8C200A8F473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PuStack_UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PuStack.PuStack-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuStack_UI.app/PuStack_UI";
+			};
+			name = Release;
+		};
+		189C4BC81EA3E8C200A8F473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PuStack_UIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PuStack.PuStack-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PuStack_UI;
+			};
+			name = Debug;
+		};
+		189C4BC91EA3E8C200A8F473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PuStack_UIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PuStack.PuStack-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PuStack_UI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189C4B911EA3E8C200A8F473 /* Build configuration list for PBXProject "PuStack_UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C4BBF1EA3E8C200A8F473 /* Debug */,
+				189C4BC01EA3E8C200A8F473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189C4BC11EA3E8C200A8F473 /* Build configuration list for PBXNativeTarget "PuStack_UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C4BC21EA3E8C200A8F473 /* Debug */,
+				189C4BC31EA3E8C200A8F473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189C4BC41EA3E8C200A8F473 /* Build configuration list for PBXNativeTarget "PuStack_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C4BC51EA3E8C200A8F473 /* Debug */,
+				189C4BC61EA3E8C200A8F473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189C4BC71EA3E8C200A8F473 /* Build configuration list for PBXNativeTarget "PuStack_UIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C4BC81EA3E8C200A8F473 /* Debug */,
+				189C4BC91EA3E8C200A8F473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		189C4BA01EA3E8C200A8F473 /* PuStack_UI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				189C4BA11EA3E8C200A8F473 /* PuStack_UI.xcdatamodel */,
+			);
+			currentVersion = 189C4BA11EA3E8C200A8F473 /* PuStack_UI.xcdatamodel */;
+			path = PuStack_UI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 189C4B8E1EA3E8C200A8F473 /* Project object */;
+}
