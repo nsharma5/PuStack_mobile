@@ -30,7 +30,7 @@ port = process.env.PORT || 3000
 
 // GET users by their emails.
 app.get('/api/user/:id', function(request, response){
-    User.find(request.params.id, function(error, user){
+    User.findById(request.params.id, function(error, user){
 
     	// In case of any error.
     	if (error) {
